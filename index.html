@@ -6,9 +6,24 @@
         <title>RockPaperScissors</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-
+        <section class="rps">
+            <section class="top">
+                <h1>choose your stance</h1>
+                <div class="choice">
+                    <img id="rock" src="./images/rock.png">
+                    <img id="paper" src="./images/paper.png">
+                    <img id="scissors" src="./images/scissors.png">
+                </div>
+            </section>
+            <div class="computer">
+                <div class="stance"></div>
+                <div class="result"></div>
+                <div class="score"></div>
+            </div>
+        </section>
         <script src="index.js" async defer></script>
     </body>
 </html>

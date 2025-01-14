@@ -1,0 +1,79 @@
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.rps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+
+.top {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 49%;
+    border-radius: 24px;
+}
+
+.choice {
+    display: flex;
+    gap:5em;
+    margin-bottom:1em;
+}
+
+#rock {
+    padding:1em;
+    border: 1px solid black;
+    border-radius:50%;
+    background-color: white;
+}
+
+#paper {
+    padding:1em;
+    border: 1px solid black;
+    border-radius:50%;
+    background-color: white;
+}
+
+#scissors {
+    padding:1em;
+    border: 1px solid black;
+    border-radius:50%;
+    height:220px;
+    width:220px;
+    background-color: white;
+}
+
+.computer {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    height:49%;
+    border-radius: 24px;
+    margin-top:3px;
+    justify-content: space-between;
+}
+
+.stance {
+    margin-left: 3em;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3em;
+    font-size: x-large;
+}
+
+.result img{
+    width:200px;
+    height: 200px;
+}
